@@ -100,6 +100,52 @@
 		width: auto;
 	}
 
+	#banner {
+		position: relative;
+		overflow: hidden;
+	}
+	
+	#banner img {
+		position: absolute;
+		bottom: 50px;
+		animation-name: moverse;
+		animation-duration: 5s;
+		animation-timing-function: linear;
+		animation-iteration-count: infinite;
+	}
+
+	@keyframes moverse {
+		0% {
+			left: -45%;
+		}
+		100% {
+			left: 100%;
+		}
+		
+		}
+
+		.image-full:hover {
+			animation: rotarImatge 1s normal;
+		}
+
+		@keyframes rotarImatge {
+			0% {
+				transform: rotate(0deg);
+			}
+			100% {
+				transform: rotate(360deg);
+			}
+		}
+
+		.box span:hover {
+			color: red;
+			cursor: pointer;
+		}
+
+		.button:hover {
+			background-color: red;
+		}
+
 /*********************************************************************************/
 /* List Styles                                                                   */
 /*********************************************************************************/
