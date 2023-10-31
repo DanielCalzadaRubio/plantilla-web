@@ -142,7 +142,9 @@
 			cursor: pointer;
 		}
 
-		
+		.button:hover {
+			background-color: red;
+		}		
 
 /*********************************************************************************/
 /* List Styles                                                                   */
